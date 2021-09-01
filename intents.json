@@ -1,0 +1,188 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hallo", "Guten Tag", "Is anyone there?","Hey","Hi","Hello"],
+         "responses": ["Hallo", "Guten Tag", "Hallo, wie kann ich behilflich sein?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Tschüss", "Beenden", "Bis bald", "Auf Wiedersehen", "Bis nächstes Mal"],
+         "responses": ["Auf Wiedershen", "Einen schönen Tag noch!", "Bis nächstes Mal!"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Danke", "Dankeschön", "Vielen dank", "Danke für die Hilfe"],
+         "responses": ["Kein Problem", "Bitte", "Gerne"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Ich habe dich leider nicht verstanden", "Bitte gebe mir mehr Infos", "Das habe ich leider nicht verstanden"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["Was kannst du", "Wie kannst du mir helfen", "Was kann ich hier machen", "Wie kannst du mich unterstützen", "Was kann ich hier machen"],
+         "responses": ["Ich kann dir Informationen zu den verschiedenen Berufen am RKI geben", "Ich habe informationen zu den verschiedenen Berufen am RKI"],
+         "context": [""]
+        },
+        {"tag": "fian",
+         "patterns": ["fian", "Fachinformatiker für Anwendungsentwicklung", "Was macht ein fian", "Was macht ein Fachinformatiker für Anwendungsentwicklung" ,"Was sind die Aufgaben von einem fian", "Was sind die Aufgaben von einem Fachinformatiker für Anwendungsentwicklung","Welche Aufgaben hat ein fian","Welche Aufgaben hat ein Fachinformatiker für Anwendungsentwicklung" ],
+         "responses": ["Fachinformatiker der Fachrichtung Anwendungsentwicklung konzipieren und programmieren Unternehmenssoftware. Bis ins kleinste Bit stimmen sie diese auf individuelle Geschäftsprozesse ab. Sie testen bestehende Anwendungen, beheben Fehler und bauen bedienerfreundliche Oberflächen auf - und sie schulen die Nutzer "],
+         "context": [""]
+        },
+        {"tag": "fian_req",
+         "patterns": ["Was muss ich als fian mitbringen", "Was muss ich als Fachinformatiker für Awendungsentwicklung mitbringen", "Welche Vorkentnisse benötige ich als fian","Welche Vorkentnisse benötige ich als Fachinformatiker für Anwendungsentwicklung", "Welche Vorkentnisse brauche ich als fian", "Welche Vorkentnisse benötige ich als Fachinformatiker für Anwendungsentwicklung" ],
+         "responses": ["Interesse an Mathematik und Logik sind eine gute Vorraussetzung, ebenso wie ein technisches Grundverständnis. Auch sollte man Spaß am Umgang mit Kunden haben"],
+         "context": ["fian"]
+        },
+        {"tag": "fian_leanrn",
+         "patterns": ["Was lerne ich als fian", "Was lerne ich als Fachinformatiker für Anwendungsentwicklung", "Was kann ich als fian lernen", "Was kann ich als Fachinformatiker für Anwendungsentwicklung lernen", "Welche Inhalte werde ich als fian lernen", "Welche Inhalte werde ich als Fachinformatiker für Anwendungsentwicklung lernen" ],
+         "responses": ["Auf dem neusten Stand der Technik lernen Sie in den Programmiersprachen C/C++ und Java Software zu entwickeln. Ebenso lernen Sie Webanwendungen zu erstellen und Datenbanken zu programmieren. Sie bauen Hard- und Softwaresysteme auf und lernen verschiedene Systemarchitekturen anzupassen. Die Ausbildung dauert 3 Jahre"],
+         "context": ["fian"]
+        },
+        {"tag": "fian_arbeit",
+         "patterns": ["Wo kann ich als fian arbeiten","Wo kann ich als Fachinformatiker für Anwendungsentwicklung arbeiten","Welche Jobs gibt es als fian","Welche Jobs gibt es als Fachinformatiker für Anwendungsentwicklung","Was für Berufe gibt es als fian", "Was für Berufe gibt es als Fachinformatiker für Anwendungsentwicklung" ],
+         "responses": ["Fachinformatiker/innen dieser Fachrichtung werden den in fast allen  Branchen gesucht. Zu den beruflichen perspektiven zählt Hard- und Softewareadministration ebenso wie Softwarentwicklung für große Unternehmen und Institutionen"],
+         "context": ["fian"]
+        },
+        {"tag": "fisi",
+         "patterns": ["fisi", "Fachinformatiker für Systemintegration", "Was macht ein fisi", "Was macht ein Fachinformatiker für Systemintegration" ,"Was sind die Aufgaben von einem fisi", "Was sind die Aufgaben von einem Fachinformatiker für Systemintegration","Welche Aufgaben hat ein fisi","Welche Aufgaben hat ein Fachinformatiker für Systemintegration" ],
+         "responses": ["Fachinformatiker/innen für Systemintegration sind Experten für Hard- und Softwarekomponenten. Passend zum Kundenbedarf planen, konfigurieren und betreuen sie IT-Systeme und Serverumgebungen, richten Netzwerke ein und warten sie. Der Support bei IT-Problemen, die systematische Fehlersuche sowie Schulungen zählen ebenfalls zu ihren Aufgaben"],
+         "context": [""]
+        },
+        {"tag": "fisi_req",
+         "patterns": ["Was muss ich als fisi mitbringen", "Was muss ich als Fachinformatiker für Systemintegration mitbringen", "Welche Vorkentnisse benötige ich als fisi","Welche Vorkentnisse benötige ich als Fachinformatiker für Systemintegration", "Welche Vorkentnisse brauche ich als fisi", "Welche Vorkentnisse benötige ich als Fachinformatiker für Systemintegration" ],
+         "responses": ["Technisches Interesse sowie die Bereitschaft sich Hard- und Software-Kenntnisse anzueignen, sind eine wichtige Voraussetzung. Zudem sollte man Wert auf eine sorgfältige und genaue Arbeitsweise legen und gerne mit menschen zusammen arbeiten"],
+         "context": ["fisi"]
+        },
+        {"tag": "fisi_leanrn",
+         "patterns": ["Was lerne ich als fisi", "Was lerne ich als Fachinformatiker für Systemintegration", "Was kann ich als fisi lernen", "Was kann ich als Fachinformatiker für Systemintegration lernen", "Welche Inhalte werde ich als fisi lernen", "Welche Inhalte werde ich als Fachinformatiker für Systemintegration lernen" ],
+         "responses": ["An modern ausgestatteten Arbeitsplätzen lernen Sie, komplette IT-Projekte durchzuführen, Betriebs-systeme, Serverumgebungen und Netzwerke aufzubauen. Sie wissen, welche Hard- und Software Lösungen für welche Bedarfe geeignet sind, und wie Sie Kunden bestmöglich beraten und unterstützen können. Die Ausbildung dauert 3 Jahre"],
+         "context": ["fisi"]
+        },
+        {"tag": "fisi_arbeit",
+         "patterns": ["Wo kann ich als fisi arbeiten","Wo kann ich als Fachinformatiker für Systemintegration lernen","Welche Jobs gibt es als fisi","Welche Jobs gibt es als Fachinformatiker für Systemintegration lernen","Was für Berufe gibt es als fisi", "Was für Berufe gibt es als Fachinformatiker für Systemintegration lernen" ],
+         "responses": ["IT-Systeme sind heute in fast jedem Unternehmen zu finden. Dementsprechend breit ist das Einsatzgebiet in kleineren und größeren Firmen, in Büros, Praxen, bei IT-Dienstleistern und in der Industrie"],
+         "context": ["fisi"]
+        },
+        {"tag": "inka",
+         "patterns": ["inka", "Informatikkaufmann", "Was macht ein inka", "Was macht ein Informatikkaufmann" ,"Was sind die Aufgaben von einem inka", "Was sind die Aufgaben von einem Informatikkaufmann","Welche Aufgaben hat ein inka","Welche Aufgaben hat ein Informatikkaufmann" ],
+         "responses": ["Unternehmen brauchen IT-Systeme, die auf spezielle technische und betriebswirtschaftliche Anforderungen zugeschnitten sind. Informatikkaufleute beraten, was am besten passt, beschaffen die benötigte Hard- und Software, richten sie ein und pflegen sie. Fehlen Standard Anwendungen, finden sie individuelle Lösungen"],
+         "context": [""]
+        },
+        {"tag": "inka_req",
+         "patterns": ["Was muss ich als inka mitbringen", "Was muss ich als Informatikkaufmann mitbringen", "Welche Vorkentnisse benötige ich als inka","Welche Vorkentnisse benötige ich als Informatikkaufmann", "Welche Vorkentnisse brauche ich als inka", "Welche Vorkentnisse benötige ich als Informatikkaufmann" ],
+         "responses": ["Für diesen Beruf sollte man gerne planen und organisieren, Mathe und English mögen und logisch denken können. Auch Freude an Komunikation und Teamarbeit sind gute Vorrausetzungen"],
+         "context": ["inka"]
+        },
+        {"tag": "inka_leanrn",
+         "patterns": ["Was lerne ich als inka", "Was lerne ich als Informatikkaufmann", "Was kann ich als inka lernen", "Was kann ich als Informatikkaufmann lernen", "Welche Inhalte werde ich als inka lernen", "Welche Inhalte werde ich als Informatikkaufmann lernen" ],
+         "responses": ["An modern ausgestatteneten Arbeitsplätzen lernen Sie, IT-Bedarf zu ermitteln, Angebote zu vergleichen und Kosten zu kalkulieren, sowie IT-Systeme zu pflegen und zu warten. Sie lernen Webseiten zu entwickeln und anzupassen, Mitarbeiter in EDV Fragen zu schulen und die Qualität von IT-systemen und Anwendungen sicher zu stellen. Die Ausbildung dauert 3 Jahre "],
+         "context": ["inka"]
+        },
+        {"tag": "inka_arbeit",
+         "patterns": ["Wo kann ich als inka arbeiten", "Wo kann ich als Informatikkaufmann lernen", "Welche Jobs gibt es als inka", "Welche Jobs gibt es als Informatikkaufmann lernen", "was für berufe gibtes als inka", "was für berufe gibtes als Informatikkaufmann" ],
+         "responses": ["Informatikkaufleute sind in allen Branchen gefragt. Die beruflichen Perspektiven reichen vom Verkauf von IT-Systemen über technischen Support, EDV-Consulting, Marketing bis zum Controling"],
+         "context": ["inka"]
+        },
+        {"tag": "schulabluss",
+         "patterns": ["Welchen Schulabschluss brauche ich für eine IT-Ausbildung?", "brauche ich einen Abschluss für eine IT-Ausbildung","wird ein Abschluss für die IT-Ausbildung benötigt","welchen Schulabschluss"],
+         "responses": ["Eine Berufsausbildung im Bereich der Informationstechnik im RKI Berufsbildungswerk setzt die mittlere Reife (MSA) voraus."],
+         "context": [""]
+        },
+        {"tag": "berufsschule",
+         "patterns": ["Wo ist die Berufsschule?"],
+         "responses": ["Für die Auszubildenden findet der Berufsschulunterricht am selbigen Standort der Ausbildung statt."],
+         "context": [""]
+        },
+        {"tag": "ausbildungsberufe",
+         "patterns": ["Welche Ausbildungsberufe gibt es im RKI?"],
+         "responses": ["Das RKI Berufsbildungswerk bildet in den folgenden Berufen aus: Agrarwirtschaft (Gartenbau), Ernährung und Hauswirtschaft, Fahrzeugpflege, Farbtechnik, Informationstechnik und digitale Berufe, Metalltechnik, Metalltechnik ? Fahrrad, Wirtschaft und Verwaltung"],
+         "context": [""]
+        },
+        {"tag": "geld",
+         "patterns": ["Verdiene ich Geld während der Ausbildung?","gibt es geld?"],
+         "responses": ["Während einer Ausbildung im RKI BBW gibt es die Möglichkeit eine Vergütung über den  beteiligten Rehabilitationskostenträger zu erhalten. Die Höhe bemisst sich dabei an  Kriterien, darunter die aktuelle Wohnsituation und die finanzielle Lage."],
+         "context": [""]
+        },
+        {"tag": "ausbildungsbeginn",
+         "patterns": ["Wann ist Ausbildungsbeginn?","wann fängt es an"],
+         "responses": ["Die Ausbildungen im RKI Berufsbildungswerk beginnen immer am 02.03. und am  01.09. Im Falle eines späteren Ausbildungseintritts muss der beteiligte  Rehabilitationskostenträger und unter Umständen die IHK Berlin (Industrie und Handelskammer) zustimmen."],
+         "context": [""]
+        },
+         {"tag": "berufsorientierung",
+         "patterns": ["Was ist eine Berufsorientierung?"],
+         "responses": ["Während einer Berufsorientierung hast du die Möglichkeit deinen späteren Berufswunsch zu finden. Du lernst eigene Interessen, Kompetenzen und Ziele kennen."],
+         "context": [""]
+        },
+        {"tag": "fian_was",
+         "patterns": ["Was macht ein FIAN?","Was macht eine FIAN?"],
+         "responses": ["Ein/e FIAN beschäftigt sich überwiegend mit dem Entwickeln und Testen von Software und Anwendungen  für Unternehmen und Kunden. Zudem gehört es auch zu seinen/ihren Aufgaben Mitarbeitern oder Kunden zu zeigen, wie die neue Software funktioniert."],
+         "context": [""]
+        },
+         {"tag": "fisi_was",
+         "patterns": ["Was macht ein FISI?","Was macht eine FISI?"],
+         "responses": ["Ein/e FISI ist zuständig für die Installation von Hard- und Software und für die Einrichtung von Netzwerken. Außerdem fällt der IT-Support und Wartung von Servern unter seine/ihre Aufgaben."],
+         "context": [""]
+        },
+         {"tag": "dima",
+         "patterns": ["Was macht ein DIMA?","Was macht eine DIMA?"],
+         "responses": ["Ein Digital Manager/eine Digital Managerin treibt das Thema Digitalisierung in einem Unternehmen voran. Er/sie entwickelt erfolgreiche digitale Strategien und  Geschäftsmodelle und unterstützt das Unternehmen beim digitalen Wandel."],
+         "context": [""]
+        },
+         {"tag": "e-commerce",
+         "patterns": ["Was macht ein Kaufmann im E-Commerce?","Was macht eine Kauffrau im E-Commerce?"],
+         "responses": ["Eine Kauffrau/ein Kaufmann im E-Commerce baut Online-Shops auf,  beschäftigt sich mit den neuesten Trends und wägt ab auf welche Produkte  die Kunden anspringen. Zusätzlich entwickelt er/sie auch Marketing-Strategien um Werbung gezielt dort einzusetzen, wo sie auch gesehen wird."],
+         "context": [""]
+        },
+        {"tag": "praktika",
+         "patterns": ["Gibt es Praktika in der Ausbildung?","gibt es ein Praktikumsplatz"],
+         "responses": ["Ja, nach einem absolvierten Jahr in der Ausbildung haben wir die Möglichkeit uns in einem Kooperationsbetrieb für einen Praktikumsplatz zu bewerben."],
+         "context": [""]
+        },
+        {"tag": "wieoft",
+         "patterns": ["Wie oft im Jahr beginnt eine Maßnahme?"],
+         "responses": ["Die Ausbildungssemester fangen einmal im September und einmal im März an. Die BVB und Arbeitserprobung findet mehrmals im Jahr statt."],
+         "context": [""]
+        },
+        {"tag": "wie",
+         "patterns": ["Wie bekomme ich eine Ausbildung im RKI?"],
+         "responses": ["Durch eine bestandene Berufsvorbereitung."],
+         "context": [""]
+        },
+        {"tag": "wielange",
+         "patterns": ["Wie lange muss ich täglich arbeiten?","wie lange muss ich täglich am rki arbeiten"],
+         "responses": ["Die regulären Arbeitszeiten sind 8 Stunden täglich, Montag bis Freitag."],
+         "context": [""]
+        },   
+        {"tag": "teilzeit",
+         "patterns": ["Gibt es auch Teilzeitausbildung?","gibt es eine teilzeitausbildung am rki"],
+         "responses": ["Ja, je nach Bedarf ist es möglich eine Arbeitszeitverkürzung zu beantragen. Die Arbeitszeiten dauern dann in der Regel 6 Stunden pro Tag."],
+         "context": [""]
+        },
+        {"tag": "beratung",
+         "patterns": ["Welche psychologische Begleitung kann ich erhalten?", "gibt es psychologische begleitung am rki", "wird die ausbildung von psychologen begleitet", "welche psychologische unterstützung gibt es"],
+         "responses": ["Die Ausbildung im rki wird von einem kompetenz team aus psychologen und sozialarbeitern begleitet"],
+         "context": [""]
+        },
+        {"tag": "raeume",
+         "patterns": ["Kann ich mir die Räume online anschauen?", "Kann ich mir die Räume online ansehen?", "online besichtigung", "gibt es eine möglichkeit die räüme online anzusehen"],
+         "responses": ["Momentan ist eine online besichtigung der Räume leider nicht möglich Sie können aber einen Termin machen und sich das RKI in Person ansehen"],
+         "context": [""]
+        },
+		{"tag": "abschluss",
+         "patterns": ["Erhalte ich bei bestandener Prüfung einen IHK-Abschluss?", "bekomme ich nach der ausbildung einen abschluss", "was für ein abschluss bekomme ich nach bestehen der prüfung"],
+         "responses": ["Bei bestandener Prüfung erhalten Sie ein IHK-Abschluss in dem jeweiligen Ausbildungsberuf"],
+         "context": [""]
+        },
+		{"tag": "verpflegung",
+         "patterns": [" Gibt es eine Verpflegung?", "mitagessen", "wird am rki verpflegung angeboten", "welche verpflegungsmöglichkeiten gibt es?"],
+         "responses": ["Das RKI bietet jeden Tag zum Mitagessen eine warme Mahlzeit, es kann zwischen Vollkost und vegetarisch gewählt werden"],
+         "context": [""]
+        },
+		{"tag": "probezeit",	
+         "patterns": ["Gibt es eine Probezeit in der Ausbildung?", "wie lange geht die Probezeit", "Probezeit","wie lange ist die Probezeit"],
+         "responses": ["Die Probezeit bei einer Ausbildung beträgt 4 Wochen"],
+         "context": [""]
+        }
+   ]
+}
